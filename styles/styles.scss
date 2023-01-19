@@ -1,0 +1,12 @@
+
+@import "_mixins.scss";
+@import "style.scss";
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    .nav-links {
+        display: flex;
+    }
+}
