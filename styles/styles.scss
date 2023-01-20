@@ -1,6 +1,7 @@
-
 @import "_mixins.scss";
-@import "style.scss";
+@import "_another.scss";
+
+// header
 
 header {
     display: flex;
@@ -8,5 +9,11 @@ header {
 
     .nav-links {
         display: flex;
+        align-items: center;
+
+        ul {
+            display: flex;
+            gap: 32px;
+        }
     }
 }

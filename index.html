@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,14 +8,13 @@
     <link rel="stylesheet" href="./css/styles.min.css">
     <title>Document</title>
 </head>
+
 <body>
-    
-<div class="contianer">
-    <header>
-        <div class="nav-links">
-            <h1>
-                scoot
-            </h1>
+
+    <!-- header -->
+    <div class="container">
+        <header>
+            <!-- <div class="box">
             <nav>
                 <ul>
                     <li>
@@ -28,10 +28,36 @@
                     </li>
                 </ul>
             </nav>
-        </div>
-        <button>Get Scootin</button>
-    </header>
-</div>
+        </div> -->
+            <div class="nav-links" id="nav-links">
+                <img src="./images/responsive-col/burger.svg" alt="burger" class="burger" id="burger">
+                <img src="./images/scoot.svg" alt="header-logo" class="logo">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Location</a>
+                        </li>
+                        <li>
+                            <a href="#">Careers</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <button id="btn" class="btn" onclick="myBtn()">Get Scootin</button>
+        </header>
+    </div>
+    <!-- /header -->
 
+    <!-- intro-first__page -->
+    <section class="intro-first__page">
+        <div class="container"></div>
+    </section>
+    <!-- /intro-first__page -->
+
+    <script src="./index.js"></script>
 </body>
+
 </html>

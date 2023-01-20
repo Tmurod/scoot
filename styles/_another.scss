@@ -1,0 +1,115 @@
+@import "_mixins.scss";
+
+body {
+  background: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LexendDeca";
+  src: url("../fonts/Lexend_Deca/static/LexendDeca-Medium.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "space mono";
+  src: url("../fonts/SpaceMono-Regular.ttf");
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @include xl {
+    max-width: 1440px;
+  }
+
+  @include lg {
+    max-width: 960px;
+  }
+
+  @include md {
+    max-width: 720px;
+  }
+
+  @include sm {
+    max-width: 690px;
+  }
+
+  @include col {
+    max-width: 355px;
+  }
+}
+
+
+
+// header
+
+header {
+  padding: 22px;
+
+// .box {
+//   display: none;
+//   width: 100%;
+//   height: auto;
+//   background-color: red;
+// }
+
+  .burger {
+    display: none;
+  }
+
+  .logo {
+    cursor: pointer;
+  }
+
+  nav {
+    padding-left: 59px;
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        transition: 0.8s;
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+
+        &:hover {
+          color: #FCB72B;
+        }
+      }
+    }
+  }
+
+  button {
+    color: #939CAA;
+    transition: 0.8s;
+    border: 3px solid #939CAA;
+    background: transparent;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 14px 39px;
+    cursor: pointer;
+
+    &:hover {
+      color: #FCB72B;
+      border-color: #FCB72B;
+    }
+  }
+}
