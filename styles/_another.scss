@@ -25,8 +25,8 @@ body {
 
 .container {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 45px;
+  padding-left: 45px;
   margin-right: auto;
   margin-left: auto;
 
@@ -113,3 +113,64 @@ header {
     }
   }
 }
+
+// intro-first__page
+
+.intro-first__page {
+  background:  url("../images/first-page-xl/intro-bg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  .section-intro {
+    
+    .intro-text {
+      padding-top: 153px;
+
+      h1 {
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+        width: 60%;
+        font-size: normal;
+
+      }
+
+      p {
+        font-family: 'Lexend Deca';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        width: 60%;
+        padding-left: 260px;
+      }
+
+      img {
+        position: absolute;
+        top: 354px;
+        left:0;
+      }
+    }
+
+    .intro-image {}
+}
+}
+
+// section {
+//   position: relative;
+// }
+
+// .box {
+//   margin-top: 100px;
+//   background: red;
+//   width: 200px;
+//   height: 200px;
+//   // display: none;
+//   position: absolute;
+  
+// }
+

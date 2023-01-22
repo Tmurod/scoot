@@ -4,16 +4,31 @@
 // header
 
 header {
-    display: flex;
-    justify-content: space-between;
-
-    .nav-links {
+    .container {
         display: flex;
-        align-items: center;
+        justify-content: space-between;
 
-        ul {
+        .nav-links {
             display: flex;
-            gap: 32px;
+            align-items: center;
+
+            ul {
+                display: flex;
+                gap: 32px;
+            }
         }
+    }
+}
+
+// intro-first__page
+
+.intro-first__page {
+
+    .section-intro {
+        display: flex;
+
+        .intro-text {}
+
+        .intro-image {}
     }
 }
