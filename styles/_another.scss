@@ -12,7 +12,7 @@ body {
 }
 
 @font-face {
-  font-family: "LexendDeca";
+  font-family: "Lexend Deca";
   src: url("../fonts/Lexend_Deca/static/LexendDeca-Medium.ttf");
   font-style: normal;
 }
@@ -58,12 +58,12 @@ body {
 header {
   padding: 22px;
 
-// .box {
-//   display: none;
-//   width: 100%;
-//   height: auto;
-//   background-color: red;
-// }
+  // .box {
+  //   display: none;
+  //   width: 100%;
+  //   height: auto;
+  //   background-color: red;
+  // }
 
   .burger {
     display: none;
@@ -117,15 +117,15 @@ header {
 // intro-first__page
 
 .intro-first__page {
-  background:  url("../images/first-page-xl/intro-bg.png");
+  background: url("../images/first-page-xl/intro-bg.png");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 
   .section-intro {
-    
+
     .intro-text {
-      padding-top: 153px;
+      margin-bottom: 152px;
 
       h1 {
         font-family: 'Space Mono';
@@ -136,28 +136,58 @@ header {
         color: #FFFFFF;
         width: 60%;
         font-size: normal;
+        padding-top: 153px;
 
       }
 
       p {
         font-family: 'Lexend Deca';
-        font-weight: 400;
         font-size: 15px;
         line-height: 25px;
         color: #FFFFFF;
-        width: 60%;
-        padding-left: 260px;
+        width: 58%;
+        padding: 40px 0 40px 100px;
+        margin-right: 0;
+      }
+
+      button {
+        color: #939CAA;
+        transition: 0.8s;
+        border: 3px solid #939CAA;
+        background: transparent;
+        font-family: 'Space Mono';
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        padding: 14px 39px;
+        margin-left: 100px;
+        cursor: pointer;
+
+        &:hover {
+          color: #FCB72B;
+          border-color: #FCB72B;
+        }
       }
 
       img {
         position: absolute;
-        top: 354px;
-        left:0;
+        top: 443px;
+        left: 0px;
       }
     }
 
-    .intro-image {}
-}
+    .intro-image {
+      position: relative;
+
+      img {
+        &:first-child {
+          position: absolute;
+          top: 355px;
+          right: 0px;
+        }
+      }
+    }
+  }
 }
 
 // section {
@@ -171,6 +201,5 @@ header {
 //   height: 200px;
 //   // display: none;
 //   position: absolute;
-  
-// }
 
+// }
